@@ -33,22 +33,6 @@ public class HomeController {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @PostMapping("/authenticate")
     public String authenticate(@RequestBody AuthRequest authRequest) throws Exception{
         try{

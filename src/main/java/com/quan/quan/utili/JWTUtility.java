@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.function.Function;
 @Component
 public class JWTUtility implements Serializable {
-    public static final long JWT_TOKEN_VALIDITY = 5*60*60;
+    public static final long JWT_TOKEN_VALIDITY = 5*60*60*1000;
     private String secretKey = "quan";
 
     //retrieve username from jwt token
